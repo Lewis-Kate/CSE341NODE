@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>Postal Rate Calculator Index</title>
+    <meta name="Postal Rate Calculator Index" content="Postal Rate Calculator Index">
+    <script src="../../lib/calculateRate.js"></script>
+</head>
+
+<body>
+
+<% include ../partials/nav.ejs %>
+
+<div class="container">
+<% if (typeof rate !== 'undefined') { %> 
+<h2>Resulting rate: <%- rate %></h2>
+<% } %>
+
+
+<% if (typeof error !== 'undefined') { %> 
+<h2><%- error %></h2>
+<a class="btn" href="/">Try Again</a>
+<% } %>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Postal Rate Calculator Index</title>
+    <meta name="Postal Rate Calculator Index" content="Postal Rate Calculator Index">
+    <script src="../../lib/calculateRate.js"></script>
+</head>
+    
+<body>
+<div class="container">
+  <form method=GET action='results'>
+    
+      <h2>Mail Details:</h2>
+      <select name="type">
+        <option value='stamped'>Stamped Letter</option>
+        <option value='metered'>Metered Letter</option>
+        <option value='envelopes'>Large Envelope (Flat)</option>
+        <option value='retail'>First-Class Package Service (Retail)</option>     
+      </select><br />
+      
+      <label for="weight">Weight:</label>
+      <input type="number" id="weight" name="weight" name="weight"><br /><br />
+      
+       <input type="submit" value="Calculate">
+    
+    <h1>test</h1>
+  </form>  
+    
+    </div>  
+</body>
+</html>
