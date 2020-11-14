@@ -22,7 +22,7 @@ app.listen(app.get('port'), function() {
 
 var fs = require('fs');
      var myCss = {
-         style : fs.readFileSync('./styles.css','utf8');
+         style : fs.readFileSync('./styles.css','utf8')
      };
 
      app.get('/', function(req, res){
@@ -30,6 +30,7 @@ var fs = require('fs');
        title: 'Postal Rate Calculator Index',
        myCss: myCss
       });
+    });
          
        app.get('/', function(req, res){
        res.render('results.ejs', {
