@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-function calculateRate() {
+calculateRate {
   res.render('pages/index')
 }
 
