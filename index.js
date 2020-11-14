@@ -12,7 +12,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 
-.get('/', (req, res) => res.render('pages/form'))
+app.get('/', (req, res) => res.render('pages/form'))
 
 app.get('/results', calculateRate)
 
