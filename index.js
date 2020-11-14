@@ -11,11 +11,8 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-.get('/', myCallbackFunction)
 
-function myCallbackFunction() {
-  res.render('pages/index')
-}
+.get('/', (req, res) => res.render('pages/form'))
 
 app.get('/results', calculateRate)
 
