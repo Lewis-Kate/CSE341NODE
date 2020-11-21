@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => res.render('pages/movies'))
 
-app.get('/movies', updateResults(data))
+app.get('/movies', resultList)
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
