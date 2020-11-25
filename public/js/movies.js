@@ -1,4 +1,4 @@
-//const movie = (req, res, next) => {
+
     
 function findMovie() {
 	// Get the value from the search box
@@ -40,9 +40,3 @@ function updateResults(data) {
 		}
 
 }
-
-
-    //res.render('pages/movies', params)
-
-
-//module.exports = movie
