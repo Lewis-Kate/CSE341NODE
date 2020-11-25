@@ -2,7 +2,7 @@ const path = require('path')
 const express = require('express');
 const app = express();
 
-const movies = require('./js/movies');
+const movies = require('./public/js/movies');
 
 app.set('port', (process.env.PORT || 5000));
 
