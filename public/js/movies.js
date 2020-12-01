@@ -37,7 +37,7 @@ function updateResults(data) {
 	} else {
 			let resultList = $("#dataResults");
 			resultList.empty();
-			resultList.append("<p class='title warning'>>Please try again</p>");
+			resultList.append("<p class='title warning'>Please try again</p>");
 		}
 
 }
