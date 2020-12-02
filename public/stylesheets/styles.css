@@ -9,13 +9,13 @@ body{
 
 a, h2, h3, h4, p {
  font-family: 'Sora', sans-serif;
-  color: #F56c57;
+  color: #b8d20b;
   font-weight: 600;
 }
 
 h1, h2 {
   font-family: 'Sora', sans-serif;
-  color: #F56c57;
+  color: #b8d20b;
 }
 
 p {
@@ -55,7 +55,7 @@ p {
 .alert.alert-info.text-center {
     background-color: #222;
     border-color: #080808;
-    color: grey;
+    color: white;
 }
 
 #resultSection {
@@ -75,7 +75,7 @@ button {
     margin: 1em;
     font-size: 1em;
     color: white;
-    background-color: grey;
+    background-color: #231b12;
     font-family: 'Sora', sans-serif;
     
 }
