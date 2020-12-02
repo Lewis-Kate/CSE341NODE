@@ -30,9 +30,9 @@ function updateResults(data) {
 			let poster = data.Search[i].Poster;
             let year = data.Search[i].Year;
             let imdbID = data.Search[i].imdbID;
-            let plot = data.Search[i].plot;
+            let type = data.Search[i].Type;
 			resultList.append("<div class='title imgContainer'><a href='http://www.imdb.com/title/" + imdbID 
- + "' target='_blank'><img class='poster' src='" + poster + "' alt='" + title + "'><p class='titleText'>" + title +"<br>"+ year + "<br>"+ plot + "</p></a></div>");
+ + "' target='_blank'><img class='poster' src='" + poster + "' alt='" + title + "'><p class='titleText'>" + title +"<br>"+ year + "<br>"+ type + "</p></a></div>");
 		} 
 	} else {
 			let resultList = $("#dataResults");
