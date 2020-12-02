@@ -41,7 +41,7 @@ p {
     background-color:white;
     padding: 15px;
     border-radius: 10px;
-    border: 2px solid F56c57; 
+    border: 4px solid F56c57; 
     text-decoration: none;
     color:#231b12;
     font-family: 'Sora', sans-serif;
@@ -82,7 +82,7 @@ button {
     color: #231b12;
     background-color: white;
     font-family: 'Sora', sans-serif;
-    border: 2px solid #f77604;
+    border: 4px solid #f77604;
     
 }
 
@@ -91,7 +91,7 @@ input{
     height: 40px;
     border-radius: 10px;
     margin: .5em;
-    border: 2px solid #f77604;
+    border: 4px solid #f77604;
     font-family: 'Sora', sans-serif;
     -webkit-transition: width .35s ease-in-out;
   transition: width .35s ease-in-out;
@@ -133,7 +133,7 @@ button:hover {
     width: auto;
     height: auto;
     border-radius: 10px;
-    border: 2px solid #f77604;
+    border: 4px solid #f77604;
     margin: 2em;
     padding: .5em;
     font-size: 1em;
