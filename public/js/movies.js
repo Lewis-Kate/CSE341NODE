@@ -32,7 +32,7 @@ function updateResults(data) {
             let imdbID = data.Search[i].imdbID;
             let type = data.Search[i].Type;
 			resultList.append("<div class='title imgContainer'><a href='http://www.imdb.com/title/" + imdbID 
- + "' target='_blank'><img class='poster' src='" + poster + "' alt='" + title + "'><p class='titleText'>" + title +"<br>"+ year + "<br>"+ type + "</p></a></div>");
+ + "' target='_blank'><img class='poster' src='" + poster + "' alt='" + title + "'><div class='titleText'>" + "<p>Title: </p>" title +"<br>"+ "<p>Year: </p>" year + "<br>"+ "<p>Type: </p>" type + "</div></a></div>");
 		} 
 	} else {
 			let resultList = $("#dataResults");
