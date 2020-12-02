@@ -120,6 +120,7 @@ button:hover {
   display: block;
   height: auto;
   width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -127,19 +128,17 @@ button:hover {
     width: auto;
     height: auto;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid #f77604;
     margin: 2em;
     padding: .5em;
     font-size: 1em;
-    color: white;
-    background-color: grey;
+    color: #231b12;
+    background-color: white;
     font-family: 'Sora', sans-serif;
    text-align: center;
    }
 
 .titleText:hover{
-    background-color: black;
-    border: 2px solid grey;
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
      transform: scale(1.3);
@@ -164,10 +163,10 @@ button:hover {
 }
 
 @keyframes title {
-  0%   {background-color:grey; left:0px; top:0px;}
-  25%  {background-color:skyblue; left:200px; top:0px;}
-  50%  {background-color:white; left:200px; top:200px;}
-  75%  {background-color:grey; left:0px; top:200px;}
-  100% {background-color:skyblue; left:0px; top:0px;}
+  0%   {background-color:#F77604; left:0px; top:0px;}
+  25%  {background-color:#B8D208; left:200px; top:0px;}
+  50%  {background-color:#F56C57; left:200px; top:200px;}
+  75%  {background-color:#F77604; left:0px; top:200px;}
+  100% {background-color:#B8D208; left:0px; top:0px;}
 }
 
