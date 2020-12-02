@@ -9,7 +9,7 @@ body{
 
 a, h2, h3, h4, p {
  font-family: 'Sora', sans-serif;
-  color: #B8D20B;
+  color: #F56c57;
   font-weight: 600;
 }
 
@@ -33,12 +33,12 @@ p {
 }
 
 .home a{
-    background-color:darkgrey;
+    background-color:white;
     padding: 15px;
     border-radius: 10px;
-    border: 2px solid black; 
+    border: 2px solid F56c57; 
     text-decoration: none;
-    color:black;
+    color:#231b12;
     font-family: 'Sora', sans-serif;
  }
 
