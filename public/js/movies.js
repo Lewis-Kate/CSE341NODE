@@ -6,7 +6,7 @@ function findMovie() {
 	console.log("Searching for: " + searchTitle);
 
 	// Set up the parameters to send to the API
-	let params = {t: searchTitle, apikey:"c214de2e"};
+	let params = {s: searchTitle, apikey:"c214de2e"};
 
 	// Use jQuery to make the get request
 	$.get("https://www.omdbapi.com/", params, function(data, status){
