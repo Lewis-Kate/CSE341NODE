@@ -1,11 +1,11 @@
     
     function findPlot() {
 	// Get the value from the search box
-	let searchTitle = $("#title").val();
-	console.log("Searching for: " + searchTitle);
+	let searchPlot = $("#plot").val();
+	console.log("Searching for: " + searchPlot);
 
 	// Set up the parameters to send to the API
-	let params = {t: searchTitle, apikey:"c214de2e"};
+	let params = {t: searchPlot, apikey:"c214de2e"};
 
 	// Use jQuery to make the get request
 	$.get("https://www.omdbapi.com/", params, function(data, status){
@@ -52,7 +52,7 @@ function updateResults(data) {
             let type = data.Search[i].Type;
             let plot = data.Search[i].Plot;
 			resultList.append("<div class='title imgContainer'><a href='http://www.imdb.com/title/" + imdbID 
- + "' target='_blank'><img class='poster' src='" + poster + "' alt='" + title + "'><p class='titleText'>" + title +"<br>"+ year + "<br>" + type + "  <br>" + "<button onclick='findPlot();'>" "</button></p></a></div>");
+ + "' target='_blank'><img class='poster' src='" + poster + "' alt='" + title + "'><p class='titleText'>" + title +"<br>"+ year + "<br>" + type +  "  <br>" + "<button onclick='findPlot();'> "Click For Plot "</button></p></a></div>");
 		} 
 	} else {
 			let resultList = $("#dataResults");
@@ -60,4 +60,5 @@ function updateResults(data) {
 			resultList.append("<p class='title warning'>Please try again</p>");
 		}
 }
+
  
