@@ -39,6 +39,7 @@ function updateResults(data) {
 			resultList.empty();
 			resultList.append("<p class='title warning'>Please try again</p>");
 		}
+}
     
     function findPlot() {
 	// Get the value from the search box
