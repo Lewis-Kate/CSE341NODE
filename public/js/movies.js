@@ -52,7 +52,7 @@ function updateResults(data) {
             let type = data.Search[i].Type;
             let plot = data.Search[i].Plot;
 			resultList.append("<div class='title imgContainer'><a href='http://www.imdb.com/title/" + imdbID 
- + "' target='_blank'><img class='poster' src='" + poster + "' alt='" + title + "'><p class='titleText'>" + title +"<br>"+ year + "<br>" + type +  "  <br>" + "</p></a> <button onclick='findPlot();'> Click For Plot </button> </div>");
+ + "' target='_blank'><img class='poster' src='" + poster + "' alt='" + title + "'><p class='titleText'>" + title +"<br>"+ year + "<br>" + type +  "  <br>" + "</p></a> <button onclick='findPlot();'>" Click For Plot "</button> </div>");
 		} 
 	} else
 			let resultList = $("#dataResults");
