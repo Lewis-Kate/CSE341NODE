@@ -59,6 +59,6 @@ function updateResults(data) {
 			resultList.empty();
 			resultList.append("<p class='title warning'>Please try again</p>");
 		}
-}
+
 
  
