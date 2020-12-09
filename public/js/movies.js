@@ -62,7 +62,7 @@ function updateResults(data) {
     function updatePlot(data) {
 
 	if (data.Search && data.Search.length > 0) {
-		var resultList = $("#dataResults");
+		var resultList = $("#plot");
 		resultList.empty();
 
 		for (let i = 0; i < data.Search.length; i++) {
@@ -71,7 +71,7 @@ function updateResults(data) {
             resultList.append("<div class='plot'><p class='titleText'>" + plot + "</p></div>");
 		} 
 	} else {
-			let resultList = $("#dataResults");
+			let resultList = $("#plot");
 			resultList.empty();
 			resultList.append("<p class='title warning'>Please try again</p>");
 		}
